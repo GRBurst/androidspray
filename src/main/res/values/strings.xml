@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!--<string name="red">Red alert!</string>-->
+	<string name="app_name">Spray on Android</string>
+    <string name="app_desc">Test App using Spray on Android</string>
+</resources>
