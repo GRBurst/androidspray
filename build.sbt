@@ -31,10 +31,7 @@ packagingOptions in Android := PackagingOptions(
     "rootdoc.txt"),
   merges = Seq("reference.conf"))
 proguardOptions in Android ++= Seq("@project/proguard.cfg")
-// proguardOptions in Android ++= Seq("-dontwarn **", "-dontnote **")
 
-// proguardScala := true
-// useProguard := false
 dexMulti := true
 libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-actor" % "2.3.9",
